@@ -4,17 +4,18 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    position: fixed;
-    background-color:rgba(104, 211, 227, 0.5);
+    position: absolute;
+    background-color: #68d3e3;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 
 .wip-signboard {
-    width: 213px;
-    height: 139px;
+    width: 107px;
+    height: 70px;
     position: fixed;
-    right: 40vh;
+    z-index: 2;
 }
 
 .page-title {
@@ -26,4 +27,24 @@
 
 .header-nav-item {
     margin: 0 10px 0 10px;
+}
+
+@media screen and (min-width: 0) {
+    .wip-signboard {
+        right: 20px;
+    }
+    
+    .header-nav-item {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .header-nav-item {
+        display: block;
+    }
+
+    .wip-signboard {
+        right: 40vw;
+    }
 }

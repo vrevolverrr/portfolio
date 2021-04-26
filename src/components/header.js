@@ -5,7 +5,7 @@ import Title from '../assets/title.svg';
 export default function Header() {
     return (
         <div className="header-container">
-            <img src={Signboard} className="wip-signboard" alt="wip-signboard"></img>
+            <a href="https://github.com/vrevolverrr/portfolio" className="wip-signboard"><img src={Signboard} alt="wip-signboard"></img></a>
             <a href="/" className="page-title"><img src={Title} alt="title"></img></a>
             <a href="/blogs"><p className="header-nav-item">BLOGS</p></a>
             <a href="/projects"><p className="header-nav-item">PROJECTS</p></a>
