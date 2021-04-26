@@ -3,30 +3,16 @@ body {
 }
 
 @font-face {
-    font-family: 'Moon';
-    src: url('./assets/fonts/Moon2.0-Bold.otf');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moon';
-    src: url('./assets/fonts/Moon2.0-Regular.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moon';
-    src: url('./assets/fonts/Moon2.0-Light.otf');
-    font-weight: lighter;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Moderne Sans';
     src: url('./assets/fonts/Moderne\ Sans\ Font.ttf');
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Odin Rounded';
+    src: url('./assets/fonts/odin-rounded.regular.otf');
+    font-weight: lighter;
     font-style: normal;
 }
 
