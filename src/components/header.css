@@ -4,10 +4,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    position: absolute;
     background-color: #68d3e3;
-    top: 0;
-    left: 0;
     z-index: 2;
 }
 
