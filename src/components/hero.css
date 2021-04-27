@@ -1,5 +1,5 @@
 .hero-container {
-    height: 100vh;
+    height: fit-content;
     width: 100%;
     position: absolute;
     top: 60px;
@@ -48,7 +48,8 @@
     font-weight: 500;
 }
 
-@keyframes rotation {
+/** Animations **/
+@keyframes rotating-anim {
     from {
         transform: rotate(0deg);
     }
@@ -59,5 +60,45 @@
 
 .rotating {
     transform-origin: center;
-    animation: rotation 180s linear infinite;
+    animation: rotating-anim 180s linear infinite;
+}
+
+@keyframes sparkling-anim {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.sparkling {
+    animation: sparkling-anim 3s ease-in-out infinite;
+}
+
+@keyframes floaty-anim {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-10px, 0);
+    }
+    50% {
+        transform: translate(0, 0);
+    }
+    75% {
+        transform: translate(10px, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+
+}
+
+.floaty {
+    transform-origin: center;
+    animation: floaty-anim 20s ease-in-out infinite;
 }
