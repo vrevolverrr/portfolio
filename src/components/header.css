@@ -15,6 +15,7 @@
     width: 107px;
     height: 70px;
     position: fixed;
+    left: 240px;
     z-index: 2;
 }
 
@@ -30,10 +31,6 @@
 }
 
 @media screen and (min-width: 0) {
-    .wip-signboard {
-        right: 20px;
-    }
-    
     .header-nav-item {
         display: none;
     }
@@ -42,9 +39,5 @@
 @media screen and (min-width: 500px) {
     .header-nav-item {
         display: block;
-    }
-
-    .wip-signboard {
-        right: 40vw;
     }
 }

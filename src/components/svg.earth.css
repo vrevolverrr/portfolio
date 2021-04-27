@@ -1,0 +1,83 @@
+#Orbit_Path {
+  opacity: 0;
+}
+
+#Bounding_Rect {
+  opacity: 0;
+}
+
+.cls-1 {
+  fill: #e30613;
+}
+
+.cls-2 {
+  opacity: 0.7;
+}
+
+.cls-3, .cls-4 {
+  fill: #93edf2;
+}
+
+.cls-3 {
+  opacity: 0.33;
+}
+
+.cls-4 {
+  opacity: 0.59;
+}
+
+.cls-5 {
+  fill: #fff;
+}
+
+.cls-6 {
+  fill: #47bec4;
+}
+
+.cls-16, .cls-7 {
+  fill: none;
+}
+
+.cls-7 {
+  stroke: #1d1d1b;
+  stroke-miterlimit: 10;
+}
+
+.cls-8 {
+  fill: #d1d8e0;
+}
+
+.cls-9 {
+  fill: #a4afc1;
+}
+
+.cls-10 {
+  fill: #a5b0c2;
+}
+
+.cls-11 {
+  fill: #f6d548;
+}
+
+.cls-12 {
+  fill: #3ea0f3;
+}
+
+.cls-13 {
+  fill: #9fd167;
+}
+
+.cls-14 {
+  fill: #243346;
+}
+
+.cls-15 {
+  fill: #fa8181;
+}
+
+.cls-16 {
+  stroke: #243346;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 6.99px;
+}
