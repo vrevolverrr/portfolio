@@ -10,8 +10,8 @@
 My portfolio is currently being actively developed. Please be patient and come back in the future to look at my progress!
 
 ## TODO
-1. Add orbiting sun which corresponds to actual time.
-3. Add About, Blog, Projects and Contact sections
+1. Optimize toast message.
+2. Add about, blogs, projects etc sections.
 
 <p align="center">
   <sub><strong>MIT © 2021 Bryan Soong</strong></sub>
