@@ -38,6 +38,7 @@
 
 .header-nav-item {
     margin: 0 10px 0 10px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 0) {

@@ -1,5 +1,4 @@
 import './section.css';
-import ProfilePicture from '../assets/profile.jpg';
 
 export default function Section(props) {
     return (
