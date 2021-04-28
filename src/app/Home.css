@@ -1,0 +1,9 @@
+.email-span {
+    color: #00ddff;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.email-span:hover {
+    
+}

@@ -39,6 +39,11 @@
 .header-nav-item {
     margin: 0 10px 0 10px;
     cursor: pointer;
+    transition: 0.1s ease-out;
+}
+
+.header-nav-item:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (min-width: 0) {

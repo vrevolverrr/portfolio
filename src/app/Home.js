@@ -1,3 +1,4 @@
+import './Home.css';
 import Header from '../components/header';
 import Hero from '../components/hero';
 import Section from '../components/section';
@@ -13,7 +14,16 @@ export default function Home() {
       <Section
         image={ProfilePicture}
         title="About Me"
-        text="Placeholder text is the label for possible content in a text box. It can normally be found when there are prompts to fill out a form. It’s the hint that tells you ‘Last name’ or the format with which to enter your birthdate or phone number. Placeholder text typically exists as a hint to fill in actual text."/>
+        text={<p>
+        Hi there! My name is Bryan Soong Jun Shen. 
+        I just graduated high school and will be going for college soon.
+        I taught myself coding and designing since young due to a deep passion in technology.
+        <br /><br />
+        My dream is to improve how humans interact 
+        with technology to so that we can utilize technology to its utmost potential.
+        <br /><br />
+        I am currently interested in freelance work. Drop me an email at <span className="email-span">bryansoong35@gmail.com</span> for enquiries.
+        </p>}/>
       <Toast />
       <Footer />
     </div>
