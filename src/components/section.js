@@ -8,18 +8,18 @@ export default function Section(props) {
             {(shouldInvertHorizontally) ?
                 [<div className="text-container">
                     <h2 className="section-title">{props.title}</h2>
-                    <div className="section-text">{props.text}</div>
+                    <div className="section-text">{props.content}</div>
                 </div>,
                 <div className="image-container">
-                    <img src={props.image} className="section-image" alt="section-1"></img>
+                    {props.image}
                 </div>]
             :
                 [<div className="image-container">
-                    <img src={props.image} className="section-image" alt="section-1"></img>
+                    {props.image}
                 </div>,
                 <div className="text-container">
                     <h2 className="section-title">{props.title}</h2>
-                    <div className="section-text">{props.text}</div>
+                    <div className="section-text">{props.content}</div>
                 </div>]
             }
         </div>

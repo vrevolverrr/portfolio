@@ -15,7 +15,7 @@ export default function Hero() {
             <svg id="hero-earth" className="hero-earth" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800.96 800.96">
                 <rect id="Bounding_Rect" data-name="Bounding Rect" className="cls-1" width="800.96" height="800.96"/>
                 <g id="Day_Shine" data-name="Day Shine">
-                                    <g className="cls-2">
+                    <g className="cls-2">
                         <circle className="cls-3" cx="960.16" cy="547.64" r="354.55" transform="translate(-671.14 700.79) rotate(-45)"/>
                         <circle className="cls-3" cx="395.04" cy="409.09" r="309.7"/>
                         <circle className="cls-4" cx="960.16" cy="547.64" r="261.31" transform="translate(-671.14 700.79) rotate(-45)"/>
