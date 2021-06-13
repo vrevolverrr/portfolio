@@ -1,5 +1,8 @@
 import './skillset-section.css';
 import PhonePicture from '../assets/phone.svg';
+import DesktopPicture from '../assets/net.svg';
+import BulbPicture from '../assets/bulb.svg';
+import BrainPicture from '../assets/brain.svg';
 
 export default function SkillsetSection() {
     return (
@@ -13,21 +16,21 @@ export default function SkillsetSection() {
                 </div>
             </div>
             <div className="item-container">
-                <img className="side-picture" src={PhonePicture} alt="phone"></img>
+                <img className="side-picture" src={DesktopPicture} alt="phone"></img>
                 <div className="item-content-container">
                     <h2 className="item-title">Web Development</h2>
                     <p className="item-text">I can create responsive and functional websites by leveraging the power of modern frameworks and libraries such as Flutter Web and React JS.</p>
                 </div>
             </div>
             <div className="item-container">
-                <img className="side-picture" src={PhonePicture} alt="phone"></img>
+                <img className="side-picture" src={BulbPicture} alt="phone"></img>
                 <div className="item-content-container">
                     <h2 className="item-title">Graphic Design</h2>
                     <p className="item-text">I like to create photorealistic 3D renders in Blender using its Cycles engine. On top of that, I also use Adobe Photoshop and Illustrator for 2D designing work.</p>
                 </div>
             </div>
             <div className="item-container">
-                <img className="side-picture" src={PhonePicture} alt="phone"></img>
+                <img className="side-picture" src={BrainPicture} alt="phone"></img>
                 <div className="item-content-container">
                     <h2 className="item-title">Machine Learning</h2>
                     <p className="item-text">I love learning, that is why I often read up about machine learning and it never fails to fascinate me. I have also played around in Tensorflow and several natural language processing toolkits.</p>
