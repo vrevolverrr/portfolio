@@ -3,27 +3,28 @@ body {
 }
 
 @font-face {
-    font-family: 'Moderne Sans';
-    src: url('./assets/fonts/Moderne\ Sans\ Font.ttf');
-    font-weight: normal;
+    font-family: 'MazzardH';
+    src: url('./assets/fonts/MazzardH-Medium.ttf');
+    font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Odin Rounded';
-    src: url('./assets/fonts/odin-rounded.regular.otf');
-    font-weight: normal;
+    font-family: 'MazzardH';
+    src: url('./assets/fonts/MazzardH-SemiBold.ttf');
+    font-weight: 400;
     font-style: normal;
 }
 
 h2 {
-    font-family: 'Moderne Sans', sans-serif;
+    font-family: 'MazzardH', sans-serif;
+    font-weight: 400;
     margin: 0;
 }
 
 p {
-    font-family: 'Segoe UI', sans-serif;
-    font-weight: 500;
+    font-family: 'MazzardH', sans-serif;
+    font-weight: 300;
     line-height: 1.5;
     margin: 0;
 }

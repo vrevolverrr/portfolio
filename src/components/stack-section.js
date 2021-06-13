@@ -1,3 +1,4 @@
+import './stack-section.css';
 import { useState } from "react";
 import Section from '../components/section';
 import BackpackPicture from '../assets/backpack.svg';

@@ -1,4 +1,4 @@
-.email-span {
+.hyperlink-span {
     color: #035c69d8;
     cursor: pointer;
     transition: 0.2s ease-out;
@@ -14,11 +14,6 @@
 .stack-icon:hover {
     transform: scale(1.2);
     filter: grayscale(0);
-}
-
-.stack-picture {
-    width: 200px;
-    height: 200px;
 }
 
 @media screen and (min-width: 0px) {

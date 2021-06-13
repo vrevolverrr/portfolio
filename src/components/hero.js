@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="hero-container">
             <div className="hero-intro-container">
                 <h2 className="hero-intro-title"><TextLoop children={languages}></TextLoop>.</h2>
-                <p className="hero-intro-text">I am Bryan Soong, a self-taught but passionate hobbyist programmer. I like to innovate and create new things!</p>
+                <p className="hero-intro-text">I am Bryan Soong, a self-taught passionate hobbyist programmer who likes to innovate and create new things!</p>
             </div>
             <div className="hero-image-container">
             <svg id="hero-earth" className="hero-earth" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800.96 800.96">
