@@ -1,6 +1,6 @@
 .skillset-container {
     width: 100%;
-    height: 565px;
+    height: fit-content;
     padding: 50px 0 50px 0;
     display: flex;
     justify-content: center;
@@ -15,12 +15,46 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    padding-bottom: 80px;
 }
 
 .item-content-container {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    text-align: justify;
+}
+
+@media screen and (min-width: 0px) {
+    .item-container {
+        flex-direction: column;
+    }
+
+    .item-content-container {
+        padding: 20px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .item-container {
+        flex-direction: row;
+    }
+
+    .item-content-container {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 0px) {
+    .item-content-container {
+        width: fit-content;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .item-content-container {
+        width: 500px;
+    }
 }
 
 .item-title {
