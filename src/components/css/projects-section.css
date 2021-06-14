@@ -15,7 +15,7 @@
     height: fit-content;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,13 +25,13 @@
 }
 
 .project-item-title {
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 @media screen and (min-width: 0px) {
     .project-item-container {
         flex-direction: column;
-        padding: 15px;
+        padding: 20px;
         padding-top: 30px;
     }
 
@@ -106,6 +106,11 @@
     padding-right: 10px;
     position: relative;
     top: 5px;
+    transition: 0.1s ease-in;
+}
+
+.project-reference-icon:hover {
+    transform: scale(1.1);
 }
 
 .project-item-description {
@@ -121,4 +126,9 @@
     width: 35px;
     height: 35px;
     padding-right: 10px;
+    transition: 0.1s ease-in;
+}
+
+.stack-used-icon:hover {
+    transform: scale(1.1);
 }
