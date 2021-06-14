@@ -1,8 +1,13 @@
+var timeout;
+
 export default function showToast(text) {
+    clearTimeout(timeout);
+    hideToast();
+
     document.querySelector(".toast-text").innerHTML = `🎉 ${text}`;
     document.querySelector(".toast-box").className = "toast-box show-toast";
 
-    setTimeout(() => hideToast(), 3000);
+    timeout = setTimeout(() => hideToast(), 5000);
 
     return true;
 }
@@ -10,5 +15,5 @@ export default function showToast(text) {
 export function hideToast() {
     document.querySelector(".toast-box").className = "toast-box hide-toast";
 
-    return true
+    return true;
 }

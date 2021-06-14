@@ -10,8 +10,11 @@ import SkillsetSection from '../components/skillset-section';
 import Footer from '../components/footer';
 import Toast from '../components/toast';
 import ProjectsSection from '../components/projects-section';
+import showToast from '../utils/toast-controller';
 
 export default function Home() {
+  document.addEventListener('DOMContentLoaded', () => showToast("While this page is designed to be responsive, it is best viewed on a dekstop"));
+
   return (
     <div className="Home">
       <Header />
