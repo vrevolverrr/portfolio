@@ -1,4 +1,4 @@
-import './toast.css';
+import './css/toast.css';
 import { hideToast } from '../utils/toast-controller';
 
 export default function Toast() {

@@ -1,5 +1,5 @@
-import './hero.css';
-import './svg.earth.css';
+import './css/hero.css';
+import './css/svg.earth.css';
 import TextLoop from "react-text-loop";
 
 export default function Hero() {

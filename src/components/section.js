@@ -1,4 +1,4 @@
-import './section.css';
+import './css/section.css';
 
 export default function Section(props) {
     const shouldInvertHorizontally = props.invert || false;

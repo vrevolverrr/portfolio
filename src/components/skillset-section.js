@@ -1,4 +1,4 @@
-import './skillset-section.css';
+import './css/skillset-section.css';
 import PhonePicture from '../assets/phone.svg';
 import DesktopPicture from '../assets/net.svg';
 import BulbPicture from '../assets/bulb.svg';

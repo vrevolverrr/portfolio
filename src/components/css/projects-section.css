@@ -1,0 +1,124 @@
+.projects-container {
+    width: 100%;
+    height: fit-content;
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.project-item-container {
+    width: fit-content;
+    max-width: 1300px;
+    height: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project-item-title {
+    padding-right: 10px;
+}
+
+@media screen and (min-width: 0px) {
+    .project-item-container {
+        flex-direction: column;
+        padding: 15px;
+        padding-top: 30px;
+    }
+
+    .project-item-title-container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+    .project-item-description {
+        padding: 0;
+    }
+
+    .stack-used-container {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .project-item-container {
+        flex-direction: row;
+        padding: 40px;
+    }
+
+    .project-item-title-container {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .project-item-description {
+        padding-right: 50px;
+        padding-left: 10px;
+    }
+
+    .stack-used-container {
+        padding-left: 10px;
+    }
+}
+
+.project-item-image {
+    max-width: 512px;
+    max-height: 512px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 530px) {
+    .project-item-image {
+        width: 80vw;
+        height: 80vw;
+    }
+}
+
+@media screen and (min-width: 0px) {
+    .project-item-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.project-item-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-item-title-container {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.project-reference-icon {
+    padding-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.project-item-description {
+    font-size: 18px;
+    line-height: 2.0;
+}
+
+.stack-used-container {
+    padding-top: 20px;
+}
+
+.stack-used-icon {
+    width: 35px;
+    height: 35px;
+    padding-right: 10px;
+}
