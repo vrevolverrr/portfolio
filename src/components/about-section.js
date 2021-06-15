@@ -13,6 +13,7 @@ export default function AboutSection() {
             My dream is to improve how humans interact 
             with technology to so that we can utilize technology to its utmost potential.
             <br /><br />
-            I am currently interested in freelance work. Feel free to contact me <span onClick={() => document.querySelector("#footer").scrollIntoView({behavior: 'smooth', block: 'end'})} className="hyperlink-span">here</span> for enquiries.
-        </p>}/>);
+            I am currently interested in freelance work. Feel free to contact me <span onClick={() => document.querySelector(".contact-container").scrollIntoView({behavior: 'smooth', block: 'end'})} className="hyperlink-span">here</span> for enquiries.
+        </p>}/>
+    );
 }

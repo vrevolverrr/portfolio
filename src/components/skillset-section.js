@@ -19,7 +19,7 @@ export default function SkillsetSection() {
                 <img className="side-picture" src={DesktopPicture} alt="phone"></img>
                 <div className="item-content-container">
                     <h2 className="item-title">Web Development</h2>
-                    <p className="item-text">I can create responsive and functional websites by leveraging the power of modern frameworks and libraries such as Flutter Web and React JS.</p>
+                    <p className="item-text">I enjoy create responsive and engaging websites by leveraging the power of modern frameworks and libraries such as React JS.</p>
                 </div>
             </div>
             <div className="item-container">
