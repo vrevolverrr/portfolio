@@ -1,6 +1,21 @@
+/* This stylesheets stores element wide styling and fonts */
+
 body {
     margin: 0;
     overflow-x: hidden;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'MazzardH', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    margin: 0;
+    font-family: 'MazzardH', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
 }
 
 @font-face {
@@ -17,17 +32,4 @@ body {
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-}
-
-h2 {
-    font-family: 'MazzardH', sans-serif;
-    font-weight: 400;
-    margin: 0;
-}
-
-p {
-    font-family: 'MazzardH', sans-serif;
-    font-weight: 300;
-    line-height: 1.5;
-    margin: 0;
 }

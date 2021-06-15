@@ -103,9 +103,12 @@
 }
 
 .project-reference-icon {
+    width: 30px;
+    height: 30px;
     padding-right: 10px;
     position: relative;
     top: 5px;
+    filter: grayscale(1.0);
     transition: 0.1s ease-in;
 }
 

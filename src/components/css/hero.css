@@ -1,4 +1,4 @@
-.hero-container {
+.hero {
     height: fit-content;
     width: 100%;
     background-color: #68d3e3;
@@ -8,36 +8,18 @@
     align-items: center;
 }
 
-.hero-image-container {
-    width: 660px;
-    height: fit-content;
-    margin: 10px;
-}
-
-.hero-earth {
-    max-width: 660px;
-    max-height: 660px;
-}
-
-.hero-intro-container {
-    padding: 20px;
-}
-
-.hero-intro-title, .hero-intro-text {
-    color: #1c1c1c;
-}
-
-.hero-intro-title {
-    height: 80px;
+.hero--title {
     width: fit-content;
+    height: 80px;
     display: flex;
     align-items: center;
+    color: #1c1c1c;
     font-size: 60px;
 }
 
-.hero-intro-text {
+.hero--text {
     max-width: 450px;
-    height: fit-content;
+    color: #1c1c1c;
     font-size: 20px;
 }
 
@@ -49,27 +31,6 @@
     to {
         transform: rotate(360deg);
     }
-}
-
-.rotating {
-    transform-origin: center;
-    animation: rotating-anim 180s linear infinite;
-}
-
-@keyframes sparkling-anim {
-    0% {
-        opacity: 100%;
-    }
-    50% {
-        opacity: 0%;
-    }
-    100% {
-        opacity: 100%;
-    }
-}
-
-.sparkling {
-    animation: sparkling-anim 3s ease-in-out infinite;
 }
 
 @keyframes floaty-anim {
@@ -89,6 +50,11 @@
         transform: translate(0, 0);
     }
 
+}
+
+.rotating {
+    transform-origin: center;
+    animation: rotating-anim 180s linear infinite;
 }
 
 .floaty {

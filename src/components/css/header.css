@@ -16,19 +16,6 @@
     z-index: 2;
 }
 
-@media screen and (min-width: 0px) {
-    .wip-signboard {
-        left: 190px;
-    }
-}
-
-
-@media screen and (min-width: 375px) {
-    .wip-signboard {
-        left: 240px;
-    }
-}
-
 .page-title {
     width: 168px;
     height: 39px;
@@ -36,6 +23,7 @@
     left: 10px;
 }
 
+/* Navigation Bar Item */
 .header-nav-item {
     margin: 0 10px 0 10px;
     cursor: pointer;
@@ -55,5 +43,18 @@
 @media screen and (min-width: 500px) {
     .header-nav-item {
         display: block;
+    }
+}
+
+/* WIP Signboard */
+@media screen and (min-width: 0px) {
+    .wip-signboard {
+        left: 190px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .wip-signboard {
+        left: 240px;
     }
 }

@@ -8,7 +8,6 @@
     flex-wrap: wrap;
 }
 
-
 @media screen and (min-width: 0px) {
     .section-container {
         height: fit-content;
