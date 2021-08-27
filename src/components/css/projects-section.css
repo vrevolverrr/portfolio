@@ -1,11 +1,6 @@
 .projects-container {
-    width: 100%;
     height: fit-content;
-    padding: 50px 0 50px 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -21,7 +16,7 @@
     align-items: center;
     background-color: white;
     border-radius: 25px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 .project-item-title {

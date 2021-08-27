@@ -1,4 +1,20 @@
-/* This stylesheets stores element wide styling and fonts */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3ea0f3; 
+    border-radius: 25px;
+    transition: 0.1s ease-in;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #5ab0fc; 
+}
 
 body {
     margin: 0;

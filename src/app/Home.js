@@ -12,7 +12,7 @@ import { showToast } from '../utils/toast-controller';
 export default function Home() {
   
   document.addEventListener('DOMContentLoaded', () => 
-    showToast("While this page is designed to be responsive, it is best viewed on a dekstop")
+    showToast("While this page is designed to be responsive, it is best viewed on a desktop")
   );
 
   return (
