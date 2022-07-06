@@ -9,7 +9,7 @@ export default function AboutSection() {
             image={<img src={ProfilePicture} className="profile-image" alt="section"></img>}
             title="About Me"
             content={<p>
-            Hi there! My name is Soong Jun Shen. I am 18 this year.
+            Hi there! My name is Soong Jun Shen. I am 19 this year and currently doing my A-Levels.
             I taught myself coding and designing since young due to a deep passion in technology.
             <br /><br />
             My dream is to improve how humans interact 
